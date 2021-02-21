@@ -261,7 +261,11 @@ $(document).ready(function () {
 	  // Loop through the university details
 	  for (var [detail, info] of Object.entries(uniDetails)) {
 		// Append the detail and info
-		searchQueryResult += `${detail}: ${info}<br>`;
+		if (info.startsWith("http")) {
+			searchQueryResult += `${detail}: <a href=\"${info}\">${info}</a><br>`;
+		} else {
+			searchQueryResult += `${detail}: ${info}<br>`;
+		}
 	  }
 	}
 
