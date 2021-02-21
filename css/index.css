@@ -2,7 +2,6 @@ input[type=text] {
     width: 30%;
     box-sizing: border-box;
     border-color: #638aff;
-    color: #ffffff;
 }
 
 input[type=submit] {
