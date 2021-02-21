@@ -4,6 +4,7 @@ A university lookup tool.
 
 # Contributors
 
+ - [really-noob](https://github.com/really-noob)
  - [LiuGar](https://github.com/LiuGar)
  - [Counter-Phoenix](https://github.com/Counter-Phoenix)
  - [QuackyDragon17](https://github.com/QuackyDragon17)
